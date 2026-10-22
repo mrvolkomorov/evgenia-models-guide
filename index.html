@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Раздатка №1 — Сравнение моделей | Визуал и видео для бренда</title>
 <style>
-:root{--ink:#1a2330;--muted:#5b6673;--line:#dfe4ea;--bg:#f7f8fa;--card:#fff;--accent:#1a4d8f;--accent2:#0f7b6c;--warn:#b8860b;--warnbg:#fff8e6;--free:#0f7b6c;--freebg:#e6f5f2;--new:#b03030;}
+:root{--ink:#1a2330;--muted:#5b6673;--line:#dfe4ea;--bg:#f7f8fa;--card:#fff;--accent:#1a4d8f;--accent2:#0f7b6c;--warn:#b8860b;--warnbg:#fff8e6;--free:#0f7b6c;--freebg:#e6f5f2;--new:#b03030}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
 header{background:var(--accent);color:#fff;padding:32px 24px}
@@ -34,7 +34,7 @@ tr:last-child td{border-bottom:none}
 tr.pick{background:#f4faf8}
 tr.pick:hover{background:#eef7f4}
 .mname{font-weight:650;color:var(--ink)}
-.mid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted);word-break:break-all}
+.mid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted);word-break:break-all;margin-top:2px}
 .price{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
 .tblwrap{overflow-x:auto;border-radius:10px;border:1px solid var(--line);background:var(--card)}
 .tblwrap table{border:none}
@@ -49,6 +49,7 @@ footer{background:#1f2732;color:#9aa5b1;padding:26px 24px;font-size:13.5px}
 footer .wrap{max-width:1080px;margin:0 auto}
 footer a{color:#8fb4e8}
 .pick-note{font-size:13px;color:var(--accent2);font-weight:600;margin-top:6px}
+.version{font-size:13px;color:var(--muted);margin-top:10px;font-style:italic}
 @media(max-width:640px){header h1{font-size:23px}main{padding:24px 0 40px}th,td{padding:10px 11px;font-size:13.5px}}
 </style>
 </head>
@@ -57,7 +58,7 @@ footer a{color:#8fb4e8}
 <span class="badge">Раздаточный материал №1</span>
 <h1>Сравнение моделей: какую под какую задачу</h1>
 <p>Справочник по моделям генерации изображений и видео на fal.ai и Replicate. Подбор под задачи бренда: фотографии товара для маркетплейса, точечные правки, предметное видео.</p>
-<div class="meta">Занятие 2 · 23 октября 2026 · данные проверены 22 октября 2026</div>
+<div class="meta">Занятие 2 · 23 октября 2026 · данные проверены 22 октября 2026 · версия 2</div>
 </div></header>
 
 <main class="wrap">
@@ -66,10 +67,10 @@ footer a{color:#8fb4e8}
 <div class="card alert">
 <strong>Главное, что изменилось.</strong> Всё, что было актуально полгода назад, устарело. Разбираем по пунктам.
 <ul>
-<li><strong>MiniMax H3</strong> вышел 31 июля 2026 и заменил Hailuo video-01. На Replicate осталась старая версия — работать стоит через H3.</li>
-<li><strong>FLUX.2</strong> — текущее поколение. Прежние flux-1.1-pro и flux-dev ушли в предыдущее поколение. Есть четыре версии: Max, Pro, Flex, Klein.</li>
-<li><strong>Seedream 5.0</strong> от ByteDance обошёл Nano Banana Pro — по качеству и сохранению персонажа.</li>
-<li><strong>Kling 3.0</strong> — текущая версия Kling с нативным звуком и мультисценкой. Прежние 2.1 и 2.6 устарели.</li>
+<li><strong>FLUX 3</strong> вышла в начале октября 2026 и стала текущим поколением. FLUX.2 теперь предыдущее</li>
+<li><strong>MiniMax H3</strong> вышел 31 июля 2026 и заменил Hailuo video-01</li>
+<li><strong>Seedream 5.0</strong> от ByteDance обошёл Nano Banana Pro по сохранению персонажа и деталей изделия</li>
+<li><strong>Kling 3.0</strong> — текущая версия с нативным звуком и мультисценкой</li>
 </ul>
 </div>
 </section>
@@ -78,9 +79,9 @@ footer a{color:#8fb4e8}
 <h2>Как пользоваться таблицами</h2>
 <p class="lead">Задача определяет модель, а не наоборот. Сначала смотрите тип задачи, потом выбираете модель и площадку.</p>
 <div class="grid">
-<div class="mini"><h4>Бесплатный режим</h4><p>На Replicate есть подборка <a href="https://replicate.com/collections/try-for-free" target="_blank">Try for Free</a> — запуск без карты и без покупки кредитов. Лимита на число запусков.</p></div>
-<div class="mini"><h4>Оплата по факту</h4><p>На fal.ai платите только за сгенерированное. Подписка не нужна. Требуется привязка платёжного метода.</p></div>
-<div class="mini"><h4>Зелёная строка</h4><p>Отмеченные модели — рабочая связка для задач бренда. С них начинайте, остальное добавляйте по мере надобности.</p></div>
+<div class="mini"><h4>Бесплатный режим</h4><p>На Replicate есть подборка <a href="https://replicate.com/collections/try-for-free" target="_blank">Try for Free</a> — запуск без карты и без покупки кредитов. Количество бесплатных запусков ограничено</p></div>
+<div class="mini"><h4>Оплата по факту</h4><p>На fal.ai платите только за сгенерированное. Подписка не нужна. Требуется привязка платёжного метода</p></div>
+<div class="mini"><h4>Зелёная строка</h4><p>Отмеченные модели — рабочая связка для задач бренда. С них начинайте, остальное добавляйте по мере надобности</p></div>
 </div>
 </section>
 
@@ -90,14 +91,19 @@ footer a{color:#8fb4e8}
 <div class="tblwrap"><table>
 <thead><tr><th>Модель</th><th>Площадка</th><th>Цена</th><th>Сильная сторона</th><th>Когда брать</th></tr></thead>
 <tbody>
-<tr class="pick"><td class="mname">FLUX.2 Pro<div class="mid">black-forest-labs/flux-2-pro</div></td><td>Replicate, fal.ai</td><td class="price">от $0.012</td><td>До 8 референсов, точная передача цветов, хорош при сохранении стиля бренда</td><td>Универсальный выбор. Товар в едином стиле, несколько цветов изделия</td></tr>
-<tr class="pick"><td class="mname">FLUX.2 Max<div class="mid">black-forest-labs/flux-2-max</div></td><td>Replicate</td><td class="price">выше Pro</td><td>Наивысшая точность в семействе. Контроль цвета по HEX-кодам</td><td>Когда качество важнее цены: рекламные ключевые кадры, съёмка для каталога</td></tr>
-<tr><td class="mname">FLUX.2 Klein 4B<div class="mid">black-forest-labs/flux-2-klein-4b</div></td><td>Replicate</td><td class="price">дешевле всех</td><td>Доли секунды на кадр, до 5 референсов</td><td>Массовая генерация: много вариантов одного изделия за раз</td></tr>
+<tr class="pick"><td class="mname">FLUX 3 Image <span class="new-badge">октябрь 2026</span><div class="mid">black-forest-labs/flux-3-image</div></td><td>Replicate, fal.ai</td><td class="price">768px — $0.0205<br>1K — $0.024<br>2K — $0.05<br>4K — $0.3035</td><td>Текущее поколение. До 10 референсов, умеет и генерировать, и править. Референсы до 16 Мп включены без доплаты</td><td>Универсальный выбор. Товар в едином стиле, несколько цветов изделия</td></tr>
+<tr class="pick"><td class="mname">FLUX 3 Image Klein<div class="mid">открытые веса, 5.6 млрд параметров</div></td><td>fal.ai</td><td class="price">768px — $0.008<br>4K — $0.036</td><td>В 5 раз дешевле большой модели при том же качестве семейства</td><td>Массовая генерация: много вариантов одного изделия</td></tr>
+<tr><td class="mname">FLUX.2 Pro <span class="tag">предыдущее поколение</span><div class="mid">black-forest-labs/flux-2-pro</div></td><td>Replicate, fal.ai</td><td class="price">от $0.012</td><td>До 8 референсов, JSON-промптинг для контроля камеры и света</td><td>Когда важна скорость ответа или JSON-промптинг</td></tr>
+<tr><td class="mname">FLUX.2 Max<div class="mid">black-forest-labs/flux-2-max</div></td><td>Replicate</td><td class="price">выше Pro</td><td>Наивысшая точность в семействе FLUX.2. Контроль цвета по HEX-кодам</td><td>Когда качество важнее цены: ключевые кадры для каталога</td></tr>
+<tr><td class="mname">Seedream 5.0 <span class="new-badge">сентябрь 2026</span><div class="mid">bytedance/seedream/v5/pro</div></td><td>fal.ai</td><td class="price">$0.135</td><td>Лучшее сохранение персонажа и деталей изделия между кадрами</td><td>Когда важно, чтобы изделие не «плыло» между вариантами</td></tr>
+<tr><td class="mname">Nano Banana Pro<div class="mid">fal.ai</div></td><td>fal.ai</td><td class="price">$0.15</td><td>4K, до 14 референсов, режим размышления перед отрисовкой</td><td>Сохранить фирменный вид бренда при смене модели</td></tr>
+<tr><td class="mname">FLUX Krea Dev<div class="mid">black-forest-labs/flux-krea-dev</div></td><td>Replicate</td><td class="price">средняя</td><td>Совместная разработка с Krea. Фотореализм без «пересыщенного ИИ-вида»</td><td>Когда нужен натуральный вид, а не глянцевая картинка</td></tr>
 <tr><td class="mname">Imagen 4<div class="mid">google/imagen-4</div> <span class="free-badge">бесплатно</span></td><td>Replicate</td><td class="price">бесплатно / $0.04</td><td>Ровный фотореализм, хорошо держит фактуру ткани</td><td>Первый осмотр: попробовать без затрат и понять, что подходит</td></tr>
-<tr><td class="mname">Seedream 5.0 <span class="new-badge">актуально</span><div class="mid">bytedance/seedream/v5/pro</div></td><td>fal.ai</td><td class="price">$0.135</td><td>Лучшее сохранение персонажа и деталей изделия между кадрами</td><td>Когда важно, чтобы изделие не «плыло» между вариантами</td></tr>
-<tr><td class="mname">Nano Banana Pro <span class="new-badge">актуально</span></td><td>fal.ai</td><td class="price">$0.15</td><td>4K, до 14 референсов, режим размышления перед отрисовкой</td><td>Сохранить фирменный вид бренда при смене модели</td></tr>
 <tr><td class="mname">GPT Image 2</td><td>fal.ai</td><td class="price">$1 за единицу</td><td>Топ-уровень по пониманию промпта</td><td>Сложные сцены с несколькими предметами. Дорого — для точечных задач</td></tr>
 </tbody></table></div>
+<div class="card">
+<strong>Учтите по FLUX 3.</strong> Генерация идёт медленнее обычного — около 37 секунд на кадр 1K против 5 у быстрых моделей. Это плата за качество и встроенный поиск: параметр <span class="mid" style="display:inline">grounding</span> по умолчанию включён, модель сначала исследует промпт через веб-поиск и поиск по изображениям, потом рисует. Если нужна скорость — выключите grounding.
+</div>
 </section>
 
 <section>
@@ -107,10 +113,13 @@ footer a{color:#8fb4e8}
 <thead><tr><th>Техника</th><th>Модель</th><th>Цена</th><th>Как работает</th><th>Когда брать</th></tr></thead>
 <tbody>
 <tr class="pick"><td class="mname">Правка словами<div class="mid">flux-kontext-pro</div> <span class="free-badge">бесплатно</span></td><td>Replicate</td><td class="price">бесплатно</td><td>Пишете словами, что изменить — модель сама находит объект. Маска не нужна</td><td>Первый выбор. Самый быстрый способ точечной правки</td></tr>
-<tr><td class="mname">Правка маской<div class="mid">flux-fill-pro</div></td><td>Replicate</td><td class="price">от $0.025</td><td>Закрашиваете только нужную область — остальное не трогается вообще</td><td>Когда важно гарантировать, что фон вокруг правки не изменится</td></tr>
-<tr><td class="mname">По референсам<div class="mid">FLUX.2 Pro, Nano Banana Pro</div></td><td>Replicate, fal.ai</td><td class="price">от $0.012</td><td>Подаёте до 8–14 фото-эталонов: модель сохраняет стиль, цвет, фактуру</td><td>Когда меняете модель, но вид бренда должен остаться тем же</td></tr>
+<tr class="pick"><td class="mname">Правка по референсам<div class="mid">flux-3-image</div></td><td>Replicate, fal.ai</td><td class="price">от $0.0205</td><td>До 10 референсов. Подали изображение — модель перешла в режим правки</td><td>Когда меняете модель, но вид бренда должен остаться тем же</td></tr>
+<tr><td class="mname">Правка маской<div class="mid">flux-fill-pro</div></td><td>Replicate</td><td class="price">$0.05</td><td>Закрашиваете только нужную область — остальное не трогается вообще</td><td>Когда важно гарантировать, что фон вокруг правки не изменится</td></tr>
 <tr><td class="mname">По глубине и контуру<div class="mid">flux-depth-pro, flux-canny-pro</div></td><td>Replicate</td><td class="price">средние</td><td>Правка с сохранением объёма или чётких границ</td><td>Сложная фактура: рельеф ткани, плетёнка, геометрия узора</td></tr>
 </tbody></table></div>
+<div class="card">
+<strong>Стоимость правки.</strong> Правка словами и работа через референсы — самый дешёвый путь. Маска стоит $0.05 за изображение, но это единственный способ, дающий гарантию, что фон не изменится.
+</div>
 </section>
 
 <section>
@@ -136,24 +145,28 @@ footer a{color:#8fb4e8}
 <tr class="pick"><td class="mname">MiniMax H3<div class="mid">minimax/h3</div></td><td>fal.ai, OpenRouter<div class="mid">minimax/hailuo-3</div></td><td class="price">от $0.10/сек</td><td>4–15 сек, 2K, звук, до 9 референсов</td><td>Когда нужно разрешение повыше. Эталонное качество, но дороже</td></tr>
 <tr><td class="mname">Kling 3.0 <span class="new-badge">актуально</span><div class="mid">kwaivgi/kling-v3-omni-video</div></td><td>Replicate, fal.ai</td><td class="price">от $0.14/сек</td><td>до 15 сек, звук, мультисценка</td><td>Сложные сцены с несколькими планами. Топ-качество, высокая цена</td></tr>
 <tr><td class="mname">Kling v2.5 Turbo</td><td>fal.ai</td><td class="price">$0.07/сек</td><td>5 сек, без звука</td><td>Быстрые эксперименты и черновики сцен</td></tr>
-<tr><td class="mname">Hailuo video-01 <span class="old-badge">устарело</span><div class="mid">minimax/video-01</div></td><td>Replicate</td><td class="price">бесплатно</td><td>6 сек</td><td>Только для обучения. Заменена моделью H3 — в новом проекте не использовать</td></tr>
-<tr><td class="mname">Veo (Google)</td><td>fal.ai</td><td class="price">выше остальных</td><td>Звук, высокое качество</td><td>Когда бюджет не критичен и нужно максимальное качество</td></tr>
+<tr><td class="mname">Hailuo video-01 <span class="old-badge">устарело</span><div class="mid">minimax/video-01</div></td><td>Replicate <span class="free-badge">бесплатно</span></td><td class="price">бесплатно</td><td>6 сек</td><td>Только для обучения. Заменена моделью H3 — в новом проекте не использовать</td></tr>
+<tr><td class="mname">Veo (Google)</td><td>fal.ai</td><td class="price">от $0.14/сек</td><td>Звук, высокое качество, до 2K</td><td>Когда бюджет не критичен и нужно максимальное качество</td></tr>
+<tr><td class="mname">FLUX 3 Video <span class="tag">early access</span><div class="mid">black-forest-labs/flux-3</div></td><td>Replicate</td><td class="price">по факту</td><td>Видео со звуком из текста, изображений или видео</td><td>Следить за развитием. Пока ранний доступ, в рабочий стек не брать</td></tr>
 </tbody></table></div>
 <div class="card">
 <strong>Почему видео делают по кадрам.</strong> Генерация 10 секунд стоит кратно дороже 5 секунд, а один неудачный кадр в длинном ролике переделать нельзя — придётся генерировать заново всё. Снимайте отдельными короткими клипами по 5 секунд и склеивайте.
+</div>
+<div class="card">
+<strong>Сколько стоит ролик.</strong> Три кадра по 5 секунд на H3 Max — около $0.40. На MiniMax H3 с разрешением 2K — около $1.50 за тот же ролик.
 </div>
 </section>
 
 <section>
 <h2>5. Служебные инструменты</h2>
-<p class="lead">Финальная доводка изображения. Все перечисленные доступны бесплатно в подборке Try for Free.</p>
+<p class="lead">Финальная доводка изображения.</p>
 <div class="tblwrap"><table>
-<thead><tr><th>Задача</th><th>Инструмент</th><th>Когда нужен</th></tr></thead>
+<thead><tr><th>Задача</th><th>Инструмент</th><th>Цена</th><th>Когда нужен</th></tr></thead>
 <tbody>
-<tr><td class="mname">Повышение разрешения</td><td><span class="free-badge">бесплатно</span> <div class="mid">topazlabs/image-upscale</div></td><td>Изображение не проходит требование к размеру для маркетплейса</td></tr>
-<tr><td class="mname">Замена фона</td><td><span class="free-badge">бесплатно</span> Bria RMBG 2.0</td><td>Нужен чистый белый или однотонный фон под требования площадки</td></tr>
+<tr><td class="mname">Повышение разрешения</td><td><span class="free-badge">бесплатно</span> <div class="mid">topazlabs/image-upscale</div></td><td>Изображение не проходит требование к размеру для маркетплейса. Запускать в конце, после всех правок</td></tr>
 <tr><td class="mname">Ремонт лица</td><td><span class="free-badge">бесплатно</span> <div class="mid">sczhou/codeformer, tencentarc/gfpgan</div></td><td>Искажены пальцы, кисти, лицо — типовое слабое место генерации</td></tr>
 <tr><td class="mname">Перекадрирование видео</td><td><span class="free-badge">бесплатно</span> <div class="mid">luma/reframe-video</div></td><td>Один ролик нужно поставить и в вертикаль, и в горизонталь</td></tr>
+<tr><td class="mname">Замена фона</td><td>Bria RMBG 2.0</td><td>$0.018 за генерацию на fal.ai. В бесплатной подборке Replicate её нет</td><td>Нужен чистый белый или однотонный фон под требования площадки</td></tr>
 </tbody></table></div>
 </section>
 
@@ -163,8 +176,9 @@ footer a{color:#8fb4e8}
 <div class="tblwrap"><table>
 <thead><tr><th>Было</th><th>Стало</th><th>Причина замены</th></tr></thead>
 <tbody>
-<tr><td class="mname">Hailuo video-01</td><td>MiniMax H3 / H3 Max</td><td>Июль 2026, новое поколение: 2K, звук, до 9 референсов</td></tr>
-<tr><td class="mname">FLUX 1.1 Pro, FLUX.1 Dev</td><td>FLUX.2 Pro / Max / Flex</td><td>Устаревшее поколение. Остаются быстрыми и открытыми, но по качеству проигрывают</td></tr>
+<tr><td class="mname">FLUX.2 Pro, Max, Flex</td><td>FLUX 3 Image <span class="new-badge">октябрь 2026</span></td><td>Новое поколение: до 10 референсов, встроенный поиск, до 4K</td></tr>
+<tr><td class="mname">Hailuo video-01</td><td>MiniMax H3 / H3 Max</td><td>Июль 2026: 2K, звук, до 9 референсов</td></tr>
+<tr><td class="mname">FLUX 1.1 Pro, FLUX.1 Dev</td><td>FLUX 3 Image</td><td>Поколение устарело. FLUX.1 остаётся быстрым и открытым, но проигрывает по качеству</td></tr>
 <tr><td class="mname">Kling 2.1, 2.6</td><td>Kling 3.0</td><td>Нет мультисценки и нативного звука</td></tr>
 <tr><td class="mname">Seedream 4.5</td><td>Seedream 5.0</td><td>Сентябрь 2026, обходит Nano Banana Pro по персонажу и деталям</td></tr>
 <tr><td class="mname">Nano Banana (первая версия)</td><td>Nano Banana 2, Pro</td><td>4K, больше референсов, режим размышления</td></tr>
@@ -177,8 +191,8 @@ footer a{color:#8fb4e8}
 <div class="card">
 <h3 style="margin-top:0">Фото товара для карточки</h3>
 <ol>
-<li><strong>FLUX.2 Pro</strong> — сгенерировать изображение по паспорту изделия</li>
-<li><strong>FLUX.2 Pro с референсом</strong> — повторить в других цветах, сохранив стиль</li>
+<li><strong>FLUX 3 Image</strong> — сгенерировать изображение по паспорту изделия</li>
+<li><strong>FLUX 3 Image с референсом</strong> — повторить в других цветах, сохранив стиль</li>
 <li><strong>Topaz Upscale</strong> — увеличить разрешение под требования площадки</li>
 <li><strong>Bria RMBG</strong> — поставить чистый фон, если того требует площадка</li>
 </ol>
@@ -203,14 +217,14 @@ footer a{color:#8fb4e8}
 
 <section>
 <div class="card alert">
-<strong>О тарифах и лицензиях.</strong> Цены указаны на 22 октября 2026 года и меняются часто — перед крупной работой проверяйте на странице модели. Лицензия на коммерческое использование зависит от конкретной модели: часть open-source моделей требует проверки условий на странице. Для товаров бренда, которые идут на маркетплейс, этот пункт обязателен.
+<strong>О тарифах и лицензиях.</strong> Цены указаны на 22 октября 2026 года и меняются — в среднем за месяц появляется новое поколение моделей. Перед крупной работой проверяйте на странице модели. Лицензия на коммерческое использование зависит от конкретной модели: часть open-source моделей требует проверки условий на странице. Для товаров бренда, которые идут на маркетплейс, этот пункт обязателен.
 </div>
 </section>
 
 </main>
 
 <footer><div class="wrap">
-Раздаточный материал №1 к занятию 2 «Визуал + видео для бренда» · 23 октября 2026<br>
-Данные проверены 22 октября 2026 на страницах <a href="https://replicate.com" target="_blank">replicate.com</a>, <a href="https://fal.ai/pricing" target="_blank">fal.ai</a>, <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank">platform.minimax.io</a>
+Раздаточный материал №1 к занятию 2 «Визуал + видео для бренда» · 23 октября 2026 · версия 2 от 22 октября 2026<br>
+Данные проверены на страницах <a href="https://replicate.com" target="_blank">replicate.com</a>, <a href="https://fal.ai/pricing" target="_blank">fal.ai</a>, <a href="https://bfl.ai/pricing" target="_blank">bfl.ai</a>, <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank">platform.minimax.io</a>
 </div></footer>
 </body></html>
